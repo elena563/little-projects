@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <main>
+            <h1>How Strong is Your Password?</h1>
+            <label for="password">Enter your Password:</label><br>
+            <input id="password" type="password">
+            <ion-icon name="eye-outline"></ion-icon>
+            <p>Time a computer would take to crack it:</p>
+            <p id="time">0 seconds</p>
+            <div>
+                <p id="strenght">strenght</p>
+                <div id="progress">
+                    <div id="howStrong"></div>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>

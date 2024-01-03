@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'Roboto';
+	src: local('roboto'), url('Roboto-Regular.ttf') format('truetype');
+	}
+body{
+    background-color: #1e1e1e;
+    font-family: 'Roboto';
+}
+main{
+    margin: 2em 30%;
+    padding: 2em;
+    background-color: #45454A;
+    color: whitesmoke;
+    overflow:auto;
+}
+@media (max-width: 500px){
+    main{
+        margin: 2em 2em;
+    }
+}
+input{
+    border: 0.7px solid whitesmoke;
+    border-radius: 10px;
+    background-color: #45454A;
+    color: whitesmoke;
+    margin-top:1.5em;
+    height: 1.5em;
+}
+ion-icon{
+    color: whitesmoke;
+    position: relative;
+    right: 25px;
+    top: 4px;
+    z-index: 1;
+}
+ion-icon:hover{
+    cursor: pointer;
+}
+input:active{
+    border: solid whitesmoke;
+    outline: solid whitesmoke;
+}
+div{
+    margin-top: 2em;
+}
+#howStrong{
+    height: 10px;
+    position: absolute;
+    margin-top: 0;
+    z-index: 1;
+    border-radius: 10px;
+}
+#progress{
+    height: 10px;
+    width: 200px;
+    background-color: #45454A;
+    border: 0.5px solid whitesmoke;
+    margin-top: 1em;
+    border-radius: 10px;
+}
