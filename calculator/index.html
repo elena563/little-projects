@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <div id="screen">
+                <p></p>
+            </div>
+            <div id="keyboard">
+                <button onclick="digit(this)">1</button>
+                <button onclick="digit(this)">2</button>
+                <button onclick="digit(this)">3</button>
+                <button class="op" id="add" onclick="digit(this)">+</button>
+                <button onclick="digit(this)">4</button>
+                <button onclick="digit(this)">5</button>
+                <button onclick="digit(this)">6</button>
+                <button class="op" id="min" onclick="digit(this)">-</button>
+                <button onclick="digit(this)">7</button>
+                <button onclick="digit(this)">8</button>
+                <button onclick="digit(this)">9</button>
+                <button class="op" id="mult" onclick="digit(this)">x</button>
+                <button onclick="digit(this)">0</button>
+                <button onclick="enter()" id="eq">=</button>
+                <button onclick="clearScreen()" id="ac">AC</button>
+                <button class="op" onclick="digit(this)">÷</button>
+            </div>
+        </main>
+        <script src="script.js"></script>
+        <!--test-->
+    </body>
+</html>
